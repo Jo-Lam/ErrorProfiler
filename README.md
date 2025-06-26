@@ -99,4 +99,5 @@ This tool is designed to run in secure data environments. No external calls are 
 ## 📞 Contact
 
 For issues or feature requests, contact: **[Jo LAM / Data Linkage Hub]**  
-📧 **joseph.lam1@nhs.net**/**joseph.lam.18@ucl.ac.uk**
+📧 **joseph.lam1@nhs.net** (NHS England)
+📧 **joseph.lam.18@ucl.ac.uk** (UCL)
