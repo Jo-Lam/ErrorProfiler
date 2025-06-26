@@ -39,9 +39,9 @@ Input must be a CSV or DataFrame-like structure with at least the following colu
 | `id`                    | Unique record identifier              |
 | `forename`              | Original string                       |
 | `surname`               | Original string                       |
-| `forename_corrupted`    | corrupted string                      |
-| `surname_corrupted`     | corrupted string                      |
-| `group_vars`            | (Optional) grouping variable(s) to create the profile| 
+| `perturbed_forename`    | corrupted string                      |
+| `perturbed_surname`     | corrupted string                      |
+| `group_vars`            | (Optional) grouping variable(s) to create the profile | 
 
 ---
 
