@@ -1,0 +1,1255 @@
+{
+  "groups": [
+    {
+      "ethgroup": "Asian",
+      "n": 104,
+      "forename_error_type": {
+        "NoError": 0.8461538461538461,
+        "TermInsertion": 0.15384615384615385,
+        "TermDeletion": 0.15384615384615385,
+        "Replacement": 0.14423076923076922,
+        "Typo": 0.11538461538461539
+      },
+      "surname_error_type": {
+        "NoError": 0.9807692307692307,
+        "TermInsertion": 0.019230769230769232,
+        "TermDeletion": 0.019230769230769232,
+        "Typo": 0.019230769230769232,
+        "Replacement": 0.019230769230769232
+      },
+      "error_category": {
+        "TermDeletion": 0.26865671641791045,
+        "TermInsertion": 0.26865671641791045,
+        "Replacement": 0.2537313432835821,
+        "Typo": 0.208955223880597
+      },
+      "forename_error_cooccurrence": {
+        "TermDeletion__TermInsertion": 0.1951219512195122,
+        "Replacement__TermDeletion": 0.18292682926829268,
+        "Replacement__TermInsertion": 0.18292682926829268,
+        "Replacement__Typo": 0.14634146341463414,
+        "TermDeletion__Typo": 0.14634146341463414,
+        "TermInsertion__Typo": 0.14634146341463414
+      },
+      "surname_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.16666666666666666,
+        "Replacement__TermInsertion": 0.16666666666666666,
+        "Replacement__Typo": 0.16666666666666666,
+        "TermDeletion__TermInsertion": 0.16666666666666666,
+        "TermDeletion__Typo": 0.16666666666666666,
+        "TermInsertion__Typo": 0.16666666666666666
+      },
+      "forename_edit_distance_distribution": {
+        "1": 0.6875,
+        "2": 0.0625,
+        "3": 0.0625,
+        "4": 0.0625,
+        "5+": 0.125
+      },
+      "surname_edit_distance_distribution": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5+": 1.0
+      },
+      "forename_replace_half": {
+        "first_half": 0.0673076923076923,
+        "second_half": 0.057692307692307696,
+        "both": 0.009615384615384616,
+        "none": 0.8653846153846154
+      },
+      "forename_insert_half": {
+        "first_half": 0.0,
+        "second_half": 0.009615384615384616,
+        "both": 0.009615384615384616,
+        "none": 0.9807692307692307
+      },
+      "forename_delete_half": {
+        "first_half": 0.0,
+        "second_half": 0.019230769230769232,
+        "both": 0.0,
+        "none": 0.9807692307692307
+      },
+      "surname_replace_half": {
+        "first_half": 0.0,
+        "second_half": 0.0,
+        "both": 0.019230769230769232,
+        "none": 0.9807692307692307
+      },
+      "surname_insert_half": {
+        "first_half": 0.0,
+        "second_half": 0.0,
+        "both": 0.009615384615384616,
+        "none": 0.9903846153846154
+      },
+      "surname_delete_half": {
+        "first_half": 0.0,
+        "second_half": 0.0,
+        "both": 0.0,
+        "none": 1.0
+      },
+      "forename_top15_replacement_pairs": [
+        {
+          "from": "i",
+          "to": "k",
+          "pct": 0.1
+        },
+        {
+          "from": "a",
+          "to": "m",
+          "pct": 0.05
+        },
+        {
+          "from": "n",
+          "to": "y",
+          "pct": 0.05
+        },
+        {
+          "from": "s",
+          "to": "a",
+          "pct": 0.05
+        },
+        {
+          "from": "o",
+          "to": "p",
+          "pct": 0.05
+        },
+        {
+          "from": "f",
+          "to": "g",
+          "pct": 0.05
+        },
+        {
+          "from": "i",
+          "to": "8",
+          "pct": 0.05
+        },
+        {
+          "from": "i",
+          "to": "a",
+          "pct": 0.05
+        },
+        {
+          "from": "a",
+          "to": "t",
+          "pct": 0.05
+        },
+        {
+          "from": "n",
+          "to": "m",
+          "pct": 0.05
+        },
+        {
+          "from": "a",
+          "to": "i",
+          "pct": 0.05
+        },
+        {
+          "from": "n",
+          "to": "s",
+          "pct": 0.05
+        },
+        {
+          "from": "u",
+          "to": "8",
+          "pct": 0.05
+        },
+        {
+          "from": "n",
+          "to": "b",
+          "pct": 0.05
+        },
+        {
+          "from": "u",
+          "to": "o",
+          "pct": 0.05
+        }
+      ],
+      "surname_top15_replacement_pairs": [
+        {
+          "from": "k",
+          "to": "s",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "h",
+          "to": "a",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "a",
+          "to": "c",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "n",
+          "to": "h",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "b",
+          "to": "n",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "a",
+          "to": "y",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "r",
+          "to": "e",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "t",
+          "to": "g",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "l",
+          "to": "a",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "e",
+          "to": "a",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "t",
+          "to": "r",
+          "pct": 0.08333333333333333
+        },
+        {
+          "from": "t",
+          "to": "d",
+          "pct": 0.08333333333333333
+        }
+      ]
+    },
+    {
+      "ethgroup": "Black",
+      "n": 123,
+      "forename_error_type": {
+        "NoError": 0.8617886178861789,
+        "TermInsertion": 0.13821138211382114,
+        "TermDeletion": 0.13821138211382114,
+        "Typo": 0.12195121951219512,
+        "Replacement": 0.13008130081300814
+      },
+      "surname_error_type": {
+        "NoError": 0.9024390243902439,
+        "TermInsertion": 0.0975609756097561,
+        "TermDeletion": 0.0975609756097561,
+        "Replacement": 0.0975609756097561,
+        "Typo": 0.06504065040650407
+      },
+      "error_category": {
+        "TermDeletion": 0.2641509433962264,
+        "TermInsertion": 0.2641509433962264,
+        "Replacement": 0.25471698113207547,
+        "Typo": 0.2169811320754717
+      },
+      "forename_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.1702127659574468,
+        "Replacement__TermInsertion": 0.1702127659574468,
+        "Replacement__Typo": 0.1595744680851064,
+        "TermDeletion__TermInsertion": 0.18085106382978725,
+        "TermDeletion__Typo": 0.1595744680851064,
+        "TermInsertion__Typo": 0.1595744680851064
+      },
+      "surname_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.2,
+        "Replacement__TermInsertion": 0.2,
+        "TermDeletion__TermInsertion": 0.2,
+        "Replacement__Typo": 0.13333333333333333,
+        "TermDeletion__Typo": 0.13333333333333333,
+        "TermInsertion__Typo": 0.13333333333333333
+      },
+      "forename_edit_distance_distribution": {
+        "1": 0.8235294117647058,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.058823529411764705,
+        "5+": 0.11764705882352941
+      },
+      "surname_edit_distance_distribution": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.08333333333333333,
+        "5+": 0.9166666666666666
+      },
+      "forename_replace_half": {
+        "first_half": 0.08130081300813008,
+        "second_half": 0.04065040650406504,
+        "both": 0.008130081300813009,
+        "none": 0.8699186991869918
+      },
+      "forename_insert_half": {
+        "first_half": 0.0,
+        "second_half": 0.0,
+        "both": 0.0,
+        "none": 1.0
+      },
+      "forename_delete_half": {
+        "first_half": 0.008130081300813009,
+        "second_half": 0.008130081300813009,
+        "both": 0.008130081300813009,
+        "none": 0.975609756097561
+      },
+      "surname_replace_half": {
+        "first_half": 0.024390243902439025,
+        "second_half": 0.0,
+        "both": 0.07317073170731707,
+        "none": 0.9024390243902439
+      },
+      "surname_insert_half": {
+        "first_half": 0.016260162601626018,
+        "second_half": 0.024390243902439025,
+        "both": 0.008130081300813009,
+        "none": 0.9512195121951219
+      },
+      "surname_delete_half": {
+        "first_half": 0.008130081300813009,
+        "second_half": 0.04065040650406504,
+        "both": 0.0,
+        "none": 0.9512195121951219
+      },
+      "forename_top15_replacement_pairs": [
+        {
+          "from": "l",
+          "to": "k",
+          "pct": 0.09090909090909091
+        },
+        {
+          "from": "a",
+          "to": "s",
+          "pct": 0.09090909090909091
+        },
+        {
+          "from": "e",
+          "to": "s",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "i",
+          "to": "k",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "t",
+          "to": "5",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "e",
+          "to": "4",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "b",
+          "to": "v",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "i",
+          "to": "n",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "e",
+          "to": "y",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "l",
+          "to": "a",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "e",
+          "to": "n",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "x",
+          "to": "d",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "a",
+          "to": "e",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "n",
+          "to": "r",
+          "pct": 0.045454545454545456
+        },
+        {
+          "from": "h",
+          "to": "b",
+          "pct": 0.045454545454545456
+        }
+      ],
+      "surname_top15_replacement_pairs": [
+        {
+          "from": "e",
+          "to": "r",
+          "pct": 0.028985507246376812
+        },
+        {
+          "from": "a",
+          "to": "u",
+          "pct": 0.028985507246376812
+        },
+        {
+          "from": "n",
+          "to": "e",
+          "pct": 0.028985507246376812
+        },
+        {
+          "from": "i",
+          "to": "a",
+          "pct": 0.028985507246376812
+        },
+        {
+          "from": "s",
+          "to": "n",
+          "pct": 0.028985507246376812
+        },
+        {
+          "from": "c",
+          "to": "a",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "i",
+          "to": "s",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "s",
+          "to": "h",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "s",
+          "to": "l",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "e",
+          "to": "i",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "g",
+          "to": "b",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "i",
+          "to": "e",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "f",
+          "to": "i",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "f",
+          "to": "t",
+          "pct": 0.014492753623188406
+        },
+        {
+          "from": "i",
+          "to": "n",
+          "pct": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "ethgroup": "missing",
+      "n": 2221,
+      "forename_error_type": {
+        "NoError": 0.8856371004052229,
+        "TermInsertion": 0.11391265195857722,
+        "TermDeletion": 0.11391265195857722,
+        "Typo": 0.04277352543899145,
+        "Replacement": 0.09590274651058082,
+        "Variant": 0.0031517334533993696,
+        "Inversion": 0.00045024763619990995
+      },
+      "surname_error_type": {
+        "NoError": 0.935164340387213,
+        "TermInsertion": 0.06483565961278703,
+        "TermDeletion": 0.06483565961278703,
+        "Replacement": 0.06483565961278703,
+        "Typo": 0.031967582170193604
+      },
+      "error_category": {
+        "TermDeletion": 0.2994483845547675,
+        "Typo": 0.12608353033884948,
+        "TermInsertion": 0.2994483845547675,
+        "Replacement": 0.26871552403467297,
+        "Variant": 0.005516154452324665,
+        "Inversion": 0.0007880220646178094
+      },
+      "forename_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.216243654822335,
+        "Replacement__TermInsertion": 0.216243654822335,
+        "Replacement__Typo": 0.09644670050761421,
+        "TermDeletion__TermInsertion": 0.2568527918781726,
+        "TermDeletion__Typo": 0.09644670050761421,
+        "TermInsertion__Typo": 0.09644670050761421,
+        "Replacement__Variant": 0.007106598984771574,
+        "TermDeletion__Variant": 0.007106598984771574,
+        "TermInsertion__Variant": 0.007106598984771574
+      },
+      "surname_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.22325581395348837,
+        "Replacement__TermInsertion": 0.22325581395348837,
+        "TermDeletion__TermInsertion": 0.22325581395348837,
+        "Replacement__Typo": 0.11007751937984496,
+        "TermDeletion__Typo": 0.11007751937984496,
+        "TermInsertion__Typo": 0.11007751937984496
+      },
+      "forename_edit_distance_distribution": {
+        "1": 0.2727272727272727,
+        "2": 0.19367588932806323,
+        "3": 0.20553359683794467,
+        "4": 0.13438735177865613,
+        "5+": 0.19367588932806323
+      },
+      "surname_edit_distance_distribution": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.05555555555555555,
+        "5+": 0.9444444444444444
+      },
+      "forename_replace_half": {
+        "first_half": 0.031967582170193604,
+        "second_half": 0.035119315623592974,
+        "both": 0.013057181449797388,
+        "none": 0.919855920756416
+      },
+      "forename_insert_half": {
+        "first_half": 0.007203962179198559,
+        "second_half": 0.030166591625393965,
+        "both": 0.006303466906798739,
+        "none": 0.9563259792886087
+      },
+      "forename_delete_half": {
+        "first_half": 0.00810445745159838,
+        "second_half": 0.033318325078793336,
+        "both": 0.00810445745159838,
+        "none": 0.95047276001801
+      },
+      "surname_replace_half": {
+        "first_half": 0.00765420981539847,
+        "second_half": 0.0018009905447996398,
+        "both": 0.05538045925258892,
+        "none": 0.935164340387213
+      },
+      "surname_insert_half": {
+        "first_half": 0.005402971634398919,
+        "second_half": 0.02656461053579469,
+        "both": 0.00810445745159838,
+        "none": 0.959927960378208
+      },
+      "surname_delete_half": {
+        "first_half": 0.00675371454299865,
+        "second_half": 0.01846015308419631,
+        "both": 0.00765420981539847,
+        "none": 0.9671319225574065
+      },
+      "forename_top15_replacement_pairs": [
+        {
+          "from": "a",
+          "to": "i",
+          "pct": 0.06804123711340206
+        },
+        {
+          "from": "n",
+          "to": "m",
+          "pct": 0.049484536082474224
+        },
+        {
+          "from": "n",
+          "to": "s",
+          "pct": 0.049484536082474224
+        },
+        {
+          "from": "e",
+          "to": "a",
+          "pct": 0.026804123711340205
+        },
+        {
+          "from": "a",
+          "to": "e",
+          "pct": 0.024742268041237112
+        },
+        {
+          "from": "i",
+          "to": "l",
+          "pct": 0.024742268041237112
+        },
+        {
+          "from": "i",
+          "to": "a",
+          "pct": 0.01443298969072165
+        },
+        {
+          "from": "e",
+          "to": "\u00e3",
+          "pct": 0.01443298969072165
+        },
+        {
+          "from": "e",
+          "to": "i",
+          "pct": 0.01443298969072165
+        },
+        {
+          "from": "n",
+          "to": "a",
+          "pct": 0.01443298969072165
+        },
+        {
+          "from": "h",
+          "to": "o",
+          "pct": 0.01443298969072165
+        },
+        {
+          "from": "o",
+          "to": "m",
+          "pct": 0.01443298969072165
+        },
+        {
+          "from": "i",
+          "to": "e",
+          "pct": 0.012371134020618556
+        },
+        {
+          "from": "e",
+          "to": "r",
+          "pct": 0.012371134020618556
+        },
+        {
+          "from": "a",
+          "to": "y",
+          "pct": 0.012371134020618556
+        }
+      ],
+      "surname_top15_replacement_pairs": [
+        {
+          "from": "e",
+          "to": "l",
+          "pct": 0.014230271668822769
+        },
+        {
+          "from": "i",
+          "to": "e",
+          "pct": 0.0129366106080207
+        },
+        {
+          "from": "e",
+          "to": "s",
+          "pct": 0.0129366106080207
+        },
+        {
+          "from": "h",
+          "to": "a",
+          "pct": 0.01164294954721863
+        },
+        {
+          "from": "l",
+          "to": "o",
+          "pct": 0.01164294954721863
+        },
+        {
+          "from": "e",
+          "to": "a",
+          "pct": 0.01034928848641656
+        },
+        {
+          "from": "i",
+          "to": "o",
+          "pct": 0.01034928848641656
+        },
+        {
+          "from": "o",
+          "to": "a",
+          "pct": 0.01034928848641656
+        },
+        {
+          "from": "n",
+          "to": "e",
+          "pct": 0.009055627425614488
+        },
+        {
+          "from": "a",
+          "to": "i",
+          "pct": 0.009055627425614488
+        },
+        {
+          "from": "r",
+          "to": "a",
+          "pct": 0.009055627425614488
+        },
+        {
+          "from": "a",
+          "to": "o",
+          "pct": 0.009055627425614488
+        },
+        {
+          "from": "s",
+          "to": "a",
+          "pct": 0.009055627425614488
+        },
+        {
+          "from": "n",
+          "to": "a",
+          "pct": 0.009055627425614488
+        },
+        {
+          "from": "l",
+          "to": "n",
+          "pct": 0.009055627425614488
+        }
+      ]
+    },
+    {
+      "ethgroup": "Other",
+      "n": 56,
+      "forename_error_type": {
+        "NoError": 0.8035714285714286,
+        "TermInsertion": 0.19642857142857142,
+        "TermDeletion": 0.19642857142857142,
+        "Replacement": 0.19642857142857142,
+        "Typo": 0.017857142857142856
+      },
+      "surname_error_type": {
+        "NoError": 0.8392857142857143,
+        "TermInsertion": 0.16071428571428573,
+        "TermDeletion": 0.16071428571428573,
+        "Replacement": 0.16071428571428573,
+        "Typo": 0.08928571428571429
+      },
+      "error_category": {
+        "TermDeletion": 0.3,
+        "TermInsertion": 0.3,
+        "Replacement": 0.3,
+        "Typo": 0.1
+      },
+      "forename_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.3055555555555556,
+        "Replacement__TermInsertion": 0.3055555555555556,
+        "TermDeletion__TermInsertion": 0.3055555555555556,
+        "Replacement__Typo": 0.027777777777777776,
+        "TermDeletion__Typo": 0.027777777777777776,
+        "TermInsertion__Typo": 0.027777777777777776
+      },
+      "surname_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.21428571428571427,
+        "Replacement__TermInsertion": 0.21428571428571427,
+        "TermDeletion__TermInsertion": 0.21428571428571427,
+        "Replacement__Typo": 0.11904761904761904,
+        "TermDeletion__Typo": 0.11904761904761904,
+        "TermInsertion__Typo": 0.11904761904761904
+      },
+      "forename_edit_distance_distribution": {
+        "1": 0.18181818181818182,
+        "2": 0.36363636363636365,
+        "3": 0.09090909090909091,
+        "4": 0.2727272727272727,
+        "5+": 0.09090909090909091
+      },
+      "surname_edit_distance_distribution": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5+": 1.0
+      },
+      "forename_replace_half": {
+        "first_half": 0.017857142857142856,
+        "second_half": 0.08928571428571429,
+        "both": 0.017857142857142856,
+        "none": 0.875
+      },
+      "forename_insert_half": {
+        "first_half": 0.03571428571428571,
+        "second_half": 0.05357142857142857,
+        "both": 0.017857142857142856,
+        "none": 0.8928571428571429
+      },
+      "forename_delete_half": {
+        "first_half": 0.017857142857142856,
+        "second_half": 0.07142857142857142,
+        "both": 0.017857142857142856,
+        "none": 0.8928571428571429
+      },
+      "surname_replace_half": {
+        "first_half": 0.05357142857142857,
+        "second_half": 0.0,
+        "both": 0.10714285714285714,
+        "none": 0.8392857142857143
+      },
+      "surname_insert_half": {
+        "first_half": 0.0,
+        "second_half": 0.05357142857142857,
+        "both": 0.03571428571428571,
+        "none": 0.9107142857142857
+      },
+      "surname_delete_half": {
+        "first_half": 0.0,
+        "second_half": 0.05357142857142857,
+        "both": 0.017857142857142856,
+        "none": 0.9285714285714286
+      },
+      "forename_top15_replacement_pairs": [
+        {
+          "from": "y",
+          "to": "i",
+          "pct": 0.0625
+        },
+        {
+          "from": "a",
+          "to": "n",
+          "pct": 0.0625
+        },
+        {
+          "from": "l",
+          "to": "e",
+          "pct": 0.0625
+        },
+        {
+          "from": "e",
+          "to": "a",
+          "pct": 0.0625
+        },
+        {
+          "from": "i",
+          "to": "b",
+          "pct": 0.03125
+        },
+        {
+          "from": "s",
+          "to": "e",
+          "pct": 0.03125
+        },
+        {
+          "from": "a",
+          "to": "l",
+          "pct": 0.03125
+        },
+        {
+          "from": "b",
+          "to": "l",
+          "pct": 0.03125
+        },
+        {
+          "from": "h",
+          "to": "a",
+          "pct": 0.03125
+        },
+        {
+          "from": "n",
+          "to": "a",
+          "pct": 0.03125
+        },
+        {
+          "from": "i",
+          "to": "8",
+          "pct": 0.03125
+        },
+        {
+          "from": "e",
+          "to": "h",
+          "pct": 0.03125
+        },
+        {
+          "from": "e",
+          "to": "l",
+          "pct": 0.03125
+        },
+        {
+          "from": "n",
+          "to": "e",
+          "pct": 0.03125
+        },
+        {
+          "from": "c",
+          "to": "e",
+          "pct": 0.03125
+        }
+      ],
+      "surname_top15_replacement_pairs": [
+        {
+          "from": "e",
+          "to": "t",
+          "pct": 0.043478260869565216
+        },
+        {
+          "from": "o",
+          "to": "e",
+          "pct": 0.043478260869565216
+        },
+        {
+          "from": "f",
+          "to": "j",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "u",
+          "to": "o",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "l",
+          "to": "i",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "l",
+          "to": "s",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "w",
+          "to": "h",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "l",
+          "to": "r",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "l",
+          "to": "t",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "a",
+          "to": "e",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "j",
+          "to": "p",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "r",
+          "to": "t",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "d",
+          "to": "e",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "a",
+          "to": "r",
+          "pct": 0.021739130434782608
+        },
+        {
+          "from": "n",
+          "to": "s",
+          "pct": 0.021739130434782608
+        }
+      ]
+    },
+    {
+      "ethgroup": "White",
+      "n": 10777,
+      "forename_error_type": {
+        "NoError": 0.8636911942098915,
+        "TermInsertion": 0.13621601558875382,
+        "TermDeletion": 0.1278648974668275,
+        "Replacement": 0.10902848659181591,
+        "Variant": 0.004639510067736847,
+        "Typo": 0.03850793356221583,
+        "Inversion": 9.279020135473695e-05
+      },
+      "surname_error_type": {
+        "NoError": 0.9419133339519347,
+        "TermInsertion": 0.0575299248399369,
+        "TermDeletion": 0.05641644242368006,
+        "Typo": 0.029600074232161083,
+        "Replacement": 0.056230862020970586
+      },
+      "error_category": {
+        "TermDeletion": 0.2972415979708307,
+        "Typo": 0.11398224476854787,
+        "TermInsertion": 0.3134115409004439,
+        "Replacement": 0.267279644895371,
+        "Variant": 0.007926442612555484,
+        "Inversion": 0.0001585288522511097
+      },
+      "forename_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.22935779816513763,
+        "Replacement__TermInsertion": 0.22935779816513763,
+        "TermDeletion__TermInsertion": 0.26898301776302946,
+        "Replacement__Variant": 0.009759906304899472,
+        "TermDeletion__Variant": 0.009759906304899472,
+        "TermInsertion__Variant": 0.009759906304899472,
+        "Replacement__Typo": 0.08100722233066562,
+        "TermDeletion__Typo": 0.08100722233066562,
+        "TermInsertion__Typo": 0.08100722233066562
+      },
+      "surname_error_cooccurrence": {
+        "Replacement__TermDeletion": 0.21908893709327548,
+        "Replacement__TermInsertion": 0.21764280549530007,
+        "Replacement__Typo": 0.1153289949385394,
+        "TermDeletion__TermInsertion": 0.21764280549530007,
+        "TermDeletion__Typo": 0.1153289949385394,
+        "TermInsertion__Typo": 0.11496746203904555
+      },
+      "forename_edit_distance_distribution": {
+        "1": 0.19959128065395096,
+        "2": 0.19005449591280654,
+        "3": 0.21730245231607628,
+        "4": 0.14168937329700274,
+        "5+": 0.2513623978201635
+      },
+      "surname_edit_distance_distribution": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.007987220447284345,
+        "4": 0.04472843450479233,
+        "5+": 0.9472843450479234
+      },
+      "forename_replace_half": {
+        "first_half": 0.023104760137329497,
+        "second_half": 0.04221954161640531,
+        "both": 0.024311032754941078,
+        "none": 0.9103646654913241
+      },
+      "forename_insert_half": {
+        "first_half": 0.008815069128700009,
+        "second_half": 0.044724877052983204,
+        "both": 0.007701586712443166,
+        "none": 0.9387584671058736
+      },
+      "forename_delete_half": {
+        "first_half": 0.010206922149021063,
+        "second_half": 0.04036373758931057,
+        "both": 0.01057808295444001,
+        "none": 0.9388512573072284
+      },
+      "surname_replace_half": {
+        "first_half": 0.009186229934118956,
+        "second_half": 0.0012062726176115801,
+        "both": 0.04537440846246636,
+        "none": 0.944233088985803
+      },
+      "surname_insert_half": {
+        "first_half": 0.0051034610745105315,
+        "second_half": 0.022640809130555814,
+        "both": 0.007144845504314744,
+        "none": 0.9651108842906189
+      },
+      "surname_delete_half": {
+        "first_half": 0.004639510067736847,
+        "second_half": 0.018001299062818967,
+        "both": 0.008629488725990536,
+        "none": 0.9687297021434537
+      },
+      "forename_top15_replacement_pairs": [
+        {
+          "from": "a",
+          "to": "i",
+          "pct": 0.03067270826071802
+        },
+        {
+          "from": "e",
+          "to": "a",
+          "pct": 0.030324154757755316
+        },
+        {
+          "from": "a",
+          "to": "e",
+          "pct": 0.02718717323109097
+        },
+        {
+          "from": "i",
+          "to": "e",
+          "pct": 0.025792959219240155
+        },
+        {
+          "from": "e",
+          "to": "i",
+          "pct": 0.02056465667479958
+        },
+        {
+          "from": "a",
+          "to": "y",
+          "pct": 0.017776228651097944
+        },
+        {
+          "from": "y",
+          "to": "i",
+          "pct": 0.016382014639247124
+        },
+        {
+          "from": "h",
+          "to": "o",
+          "pct": 0.016382014639247124
+        },
+        {
+          "from": "i",
+          "to": "l",
+          "pct": 0.01533635413035901
+        },
+        {
+          "from": "n",
+          "to": "s",
+          "pct": 0.013942140118508192
+        },
+        {
+          "from": "n",
+          "to": "m",
+          "pct": 0.012896479609620077
+        },
+        {
+          "from": "a",
+          "to": "l",
+          "pct": 0.012896479609620077
+        },
+        {
+          "from": "l",
+          "to": "e",
+          "pct": 0.012547926106657371
+        },
+        {
+          "from": "o",
+          "to": "m",
+          "pct": 0.012199372603694667
+        },
+        {
+          "from": "k",
+          "to": "c",
+          "pct": 0.011850819100731963
+        }
+      ],
+      "surname_top15_replacement_pairs": [
+        {
+          "from": "e",
+          "to": "a",
+          "pct": 0.015113350125944584
+        },
+        {
+          "from": "o",
+          "to": "e",
+          "pct": 0.012909319899244332
+        },
+        {
+          "from": "a",
+          "to": "e",
+          "pct": 0.012594458438287154
+        },
+        {
+          "from": "o",
+          "to": "a",
+          "pct": 0.01102015113350126
+        },
+        {
+          "from": "e",
+          "to": "r",
+          "pct": 0.010075566750629723
+        },
+        {
+          "from": "r",
+          "to": "n",
+          "pct": 0.00818639798488665
+        },
+        {
+          "from": "a",
+          "to": "r",
+          "pct": 0.00818639798488665
+        },
+        {
+          "from": "e",
+          "to": "n",
+          "pct": 0.007556675062972292
+        },
+        {
+          "from": "r",
+          "to": "a",
+          "pct": 0.007556675062972292
+        },
+        {
+          "from": "n",
+          "to": "r",
+          "pct": 0.007241813602015114
+        },
+        {
+          "from": "e",
+          "to": "i",
+          "pct": 0.007241813602015114
+        },
+        {
+          "from": "i",
+          "to": "e",
+          "pct": 0.0069269521410579345
+        },
+        {
+          "from": "a",
+          "to": "i",
+          "pct": 0.0069269521410579345
+        },
+        {
+          "from": "s",
+          "to": "e",
+          "pct": 0.006612090680100755
+        },
+        {
+          "from": "l",
+          "to": "r",
+          "pct": 0.006612090680100755
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "n_total": 13281,
+    "noerror_rate_by_group_forename": {
+      "('Asian',)": 0.8461538461538461,
+      "('Black',)": 0.8617886178861789,
+      "('missing',)": 0.8856371004052229,
+      "('Other',)": 0.8035714285714286,
+      "('White',)": 0.8636911942098915
+    },
+    "noerror_rate_by_group_surname": {
+      "('Asian',)": 0.9807692307692307,
+      "('Black',)": 0.9024390243902439,
+      "('missing',)": 0.935164340387213,
+      "('Other',)": 0.8392857142857143,
+      "('White',)": 0.9419133339519347
+    },
+    "group_columns": [
+      "ethgroup"
+    ],
+    "group_value_counts": {
+      "ethgroup": {
+        "White": 0.8114599804231609,
+        "missing": 0.16723138317897748,
+        "Black": 0.009261350801897448,
+        "Asian": 0.007830735637376704,
+        "Other": 0.004216549958587456
+      }
+    },
+    "profiler_version": "version 0.1",
+    "Mode": "all",
+    "generated": "2025-06-26T12:54:52.473958"
+  }
+}
