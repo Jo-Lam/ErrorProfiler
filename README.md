@@ -22,8 +22,8 @@ This tool supports validation, auditing, and fairness assessment workflows for s
 ```
 ErrorProfiler/
 ├── errorprofiler.py          # Core profiling engine + String comparison + parsing helpers
-├── test_data.csv    # Example input format
-├── README.md            # This documentation
+├── test_data.csv             # Example input format
+├── README.md                 # This documentation
 └── output/
     └── my_profile.json
 ```
@@ -36,7 +36,7 @@ Input must be a CSV or DataFrame-like structure with at least the following colu
 
 | Column                  | Description                           |
 |-------------------------|---------------------------------------|
-| `id`                    | Unique record identifier              |
+| `id`                    | (Optional) Unique record identifier   |
 | `forename`              | Original string                       |
 | `surname`               | Original string                       |
 | `perturbed_forename`    | corrupted string                      |
