@@ -1,14 +1,16 @@
 import json
-
 import pandas as pd
+import numpy as np
 
-from errorprofiler import ErrorProfiler
-from syntheticgenerator import SyntheticGenerator
-from SyntheticProfile import make_synthetic_error_profile
+from errorprofiler.errorprofiler import ErrorProfiler
+from errorprofiler.syntheticgenerator import SyntheticGenerator
+from errorprofiler.syntheticprofile import make_synthetic_error_profile
+
 
 # read example data
 df = pd.read_csv("test_data.csv")
 
+# Compute error profile from actual perturbed data
 profiler = ErrorProfiler(df,
                              col_forename="forename",
                              col_surname="surname",
@@ -17,9 +19,9 @@ profiler = ErrorProfiler(df,
                              group_cols=["ethgroup"])
 
 profiler.compute_transformations()
-profiler.to_json(filepath="my_profile.json")
+profiler.to_json(filepath="output/my_profile.json")
 
-with open("my_profile.json", "r", encoding="utf-8") as f:
+with open("output/my_profile.json", "r", encoding="utf-8") as f:
     profile_dict = json.load(f)
 
 # Load lookup tables - for random name replacement, and alternative name (with weights from #Splink synthetic data)
@@ -47,7 +49,7 @@ alt_surname_dict = build_altname_dict(surname_lookup)
 forename_vocab = [str(x).lower() for x in forename_lookup['original_name'].tolist()]
 surname_vocab = [str(x).lower() for x in surname_lookup['original_name'].tolist()]
 
-gen = SyntheticGenerator(profile_dict, 
+gen1 = SyntheticGenerator(profile_dict, 
                         N=5, # 5 records per person
                         random_seed= 42, 
                         forename_vocab=forename_vocab,
@@ -57,13 +59,13 @@ gen = SyntheticGenerator(profile_dict,
                         meta_cols=["unique_id",	"ethgroup",	"gender"],
                         keep_meta_cols=True,
 )
-df_joint = gen.run_joint(df, group_col="ethgroup")
+df_joint = gen1.run_joint(df, group_col="ethgroup")
 
-report = gen.evaluate_against_profile(df_joint)
+report = gen1.evaluate_against_profile(df_joint)
 matrix = report["matrices"]
 
-
-### Assume if only have educated guess for error distribution ### 
+# -- PART 2: Generate a synthetic error profile from a guess (no observed error data needed) --
+# Assume if only have educated guess for error distribution ### 
 # make synthetic error profile
 profile = make_synthetic_error_profile(
     N=5000,
@@ -115,11 +117,11 @@ profile = make_synthetic_error_profile(
         }
     },
     description="Demo: Custom profile for two ethnic groups with custom error/field structure.",
-    profiler_version="assistant-v1.2-demo",
+    profiler_version="v1-demo",
 )
 
 
-gen = SyntheticGenerator(
+gen2 = SyntheticGenerator(
     profile,
     N=1,
     meta_cols=["ethgroup"], # or add ["gender"] if your input needs it
@@ -136,15 +138,13 @@ group = ["White"] * n_white + ["Black"] * n_black
 np.random.shuffle(group)
 
 # Simulate (minimal) input DataFrame
-df = pd.DataFrame({
-    "forename": np.random.choice(gen.forename_vocab, size=5000),
-    "surname": np.random.choice(gen.surname_vocab, size=5000),
+df2 = pd.DataFrame({
+    "forename": np.random.choice(gen2.forename_vocab, size=5000),
+    "surname": np.random.choice(gen2.surname_vocab, size=5000),
     "ethgroup": group,
     "unique_id": np.arange(1, 5001)
 })
 
 # Run generator
-df_synth = gen.run_joint(df, group_col="ethgroup")
-
-print("run_joint elapsed:", time.time() - t0, "seconds")
+df_synth = gen2.run_joint(df, group_col="ethgroup")
 df_synth[df_synth['was_error'] == 1].head(10)
