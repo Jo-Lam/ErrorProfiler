@@ -199,6 +199,8 @@ This tool is designed to run in secure data environments. No external calls are 
 
 For issues or feature requests, contact: **[Jo LAM / Data Linkage Hub]**  
 📧 **joseph.lam1@nhs.net**/**joseph.lam.18@ucl.ac.uk**
+Great Ormond Street Institute of Child Health, UCL
+Data Linkage Hub, NHS England
 
 ---
 ### Changelog
