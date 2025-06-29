@@ -202,10 +202,10 @@ For issues or feature requests, contact: **[Jo LAM / Data Linkage Hub]**
 v0.2+
 - Synthetic profile utility (make_synthetic_error_profile)
 - New SyntheticGenerator with:
--     Separate forename/surname vocab & alt_dict
--     Full Faker fallback for names
--     Rich metadata output
--     Backward-compatible interface
+- Separate forename/surname vocab & alt_dict
+- Full Faker fallback for names
+- Rich metadata output
+- Backward-compatible interface
 
 ### License
 MIT License
