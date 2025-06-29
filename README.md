@@ -21,10 +21,13 @@ This tool supports validation, auditing, and fairness assessment workflows for s
 
 ```
 ErrorProfiler/
-├── errorprofiler.py         # Core profiling engine + String comparison + parsing helpers
-├── syntheticgenerator.py    # Generate Synthetic data base on error profile
-├── syntheticprofile.py      # Generate customisable error profile    
+├──errorprofiler/
+    └── errorprofiler.py         # Core profiling engine + String comparison + parsing helpers
+    └── syntheticgenerator.py    # Generate Synthetic data base on error profile
+    └── syntheticprofile.py      # Generate customisable error profile
+    └── __init__.py
 ├── test_data.csv            # Example input format
+├── test.py                  # Example Usage
 ├── README.md                # This documentation
 └── output/                  # example output
     └── my_profile.json
